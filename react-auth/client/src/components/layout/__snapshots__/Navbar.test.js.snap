@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders without crashing 1`] = `
+"<Fragment>
+  <styled.div>
+    <styled.nav>
+      <styled.ul>
+        <Styled(Link) to=\\"/login\\">
+          Login
+        </Styled(Link)>
+        <Styled(Link) to=\\"/register\\">
+          Register
+        </Styled(Link)>
+      </styled.ul>
+    </styled.nav>
+  </styled.div>
+</Fragment>"
+`;

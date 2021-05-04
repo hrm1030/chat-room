@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root renders without crashing 1`] = `
+"<BrowserRouter>
+  <Navbar />
+  <Switch>
+    <PrivateRoute exact={true} path=\\"/\\">
+      <Home />
+    </PrivateRoute>
+    <Route exact={true} path=\\"/login\\" component={[Function: Login]} />
+    <Route exact={true} path=\\"/register\\" component={[Function: Register]} />
+  </Switch>
+</BrowserRouter>"
+`;

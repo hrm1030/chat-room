@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register component tests renders without crashing 1`] = `
+"<styled.div>
+  <styled.div>
+    <StyledHeading id=\\"styledHeading\\">
+      Sign Up
+    </StyledHeading>
+    <form onSubmit={[Function: onSubmit]}>
+      <styled.div>
+        <styled.label htmlFor=\\"name\\">
+          Name
+        </styled.label>
+        <styled.input type=\\"text\\" id=\\"name\\" name=\\"name\\" value=\\"\\" onChange={[Function: onChange]} />
+      </styled.div>
+      <styled.div>
+        <styled.label htmlFor=\\"email\\">
+          Email
+        </styled.label>
+        <styled.input type=\\"email\\" id=\\"email\\" name=\\"email\\" value=\\"\\" onChange={[Function: onChange]} />
+      </styled.div>
+      <styled.div>
+        <styled.label htmlFor=\\"password\\">
+          Password
+        </styled.label>
+        <styled.input type=\\"password\\" id=\\"password\\" name=\\"password\\" value=\\"\\" onChange={[Function: onChange]} />
+      </styled.div>
+      <styled.div>
+        <styled.label htmlFor=\\"password2\\">
+          Password Confirmation
+        </styled.label>
+        <styled.input type=\\"password\\" id=\\"password2\\" name=\\"password2\\" value=\\"\\" onChange={[Function: onChange]} />
+      </styled.div>
+      <styled.div>
+        <styled.button type=\\"submit\\" id=\\"submitButton\\">
+          Submit
+        </styled.button>
+      </styled.div>
+    </form>
+  </styled.div>
+</styled.div>"
+`;

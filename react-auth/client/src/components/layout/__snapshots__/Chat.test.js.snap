@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat renders without crashing 1`] = `
+"<styled.div>
+  <styled.ul>
+    <div />
+  </styled.ul>
+</styled.div>"
+`;
